@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Poppins, sans-serif;
+  background: url(../image/1200px-Elkbath.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.from-wrapper {
+  width: 600px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.from-wrapper h1 {
+  font-size: 40px;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#form * {
+  padding: 10px;
+  border-radius: 7px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+}
+#btn {
+  background-color: aqua;
+  cursor: pointer;
+}
+#btn:hover {
+  background-color: rgb(82, 252, 252);
+}
